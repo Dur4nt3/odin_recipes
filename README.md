@@ -1,2 +1,5 @@
-# odin_recipes
-Recipes Project | The Odin Project | Foundations
+# Recipes Project | The Odin Project | Foundations
+
+### Overview:
+
+This repository will include the webpages for the project "Recipes" under "The Odin Project"
