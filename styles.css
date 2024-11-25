@@ -1,7 +1,11 @@
 html {
-    background-color: #260875;
+    background-color: #00c3fc;
     height: 100%;
     color: white;
+}
+
+.main {
+    text-align: center;
 }
 
 .disc {
@@ -21,10 +25,6 @@ h3 {
     text-align: center;
 }
 
-.recipe .long {
-    text-align: left;
-}
-
 .return {
     font-weight: 100;
     color: #00ff00;
@@ -35,3 +35,23 @@ a:visited {
     color: #e000e0;
 }
 
+.long {
+    text-align: center;
+}
+
+.long > ul {
+    display: inline-block;
+}
+
+.long > ol {
+    display: inline-block;
+}
+
+.lidex {
+    list-style-position: inside;
+    margin-right: 60px;
+}
+
+.long li {
+    text-align: left;
+}
