@@ -1,18 +1,21 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-    background-color: #00c3fc;
-    height: 100%;
+    background-color: #110530;
     color: white;
+    height: 100%;
+    width: 100%;
 }
 
 .defbox {
-    background-color: black;
+    background-color: #191919;
     margin: auto;
-    width: 40%;
-    padding: 6%;
+    width: 70%;
+    padding-bottom: 100%;
 }
 
 .main {
@@ -29,7 +32,7 @@ h1 {
 }
 
 h3 {
-    color: #ffdc48
+    color: #0be8c7
 }
 
 .recipe {
@@ -56,13 +59,19 @@ a:visited {
 
 .long > ol {
     display: inline-block;
+    margin-left: 50px;
 }
 
 .lidex {
     list-style-position: inside;
-    margin-right: 60px;
+    margin-right: 0px;
+    list-style-type: none;
 }
 
 .long li {
     text-align: left;
+}
+
+li::marker {
+    color: #0be8c7;
 }
