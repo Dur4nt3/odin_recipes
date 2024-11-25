@@ -27,8 +27,9 @@ html {
 }
 
 h1 {
-    font-family: "Brush Script MT", "Courier New", sans-serif;
+    font-family: 'Luminari', "Courier New", sans-serif;
     font-size: 48px;
+    color:  #ffec00;
 }
 
 h3 {
@@ -74,4 +75,39 @@ a:visited {
 
 li::marker {
     color: #0be8c7;
+}
+
+.allergen {
+    height: auto;
+    width: 24px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.allergendisc {
+    opacity: 0;
+    color: #ff8f00;
+}
+
+.long:hover .allergendisc{
+    opacity: 1;
+}
+
+.headerbox {
+    display: flex;
+    justify-content: center;
+}
+
+.inlineimg {
+    height: auto;
+    width: 28px;
+    margin-left: 18px;
+    transform: rotate(45deg);
+    padding-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inlineimg#left {
+    margin-right: 22px;
 }
