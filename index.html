@@ -2,44 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recipes</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.cdnfonts.com/css/luminari" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Odin Recipes</title>
 </head>
-<body class="main">
-    <div class="defbox">
-        <div class="headerbox">
-            <img src="./images/spoon.png" alt="Spoon" class="inlineimg" id="left">
-            <h1>Odin Recipes</h1>
-            <img src="./images/knife.png" alt="Knife" class="inlineimg">
+<body>
+    <div class="header-container">
+        <div class="spoon-div"><img src="./images/spoon.png" class="spoon"></div>
+        <div class="title"><h1>Odin Recipes</h1></div>
+        <div class="knife-div"><img src="./images/knife.png" class="knife"></div>
+    </div>
+
+    <div class="body-container">
+        <div class="appetizers">
+            <h3 class="type-header">Appetizers</h3>
+            <img src="./images/appetizer.png" alt="appetizers" class="appetizers" id="appimg">
+            <div class="apptext"><a href="./recipes/fries.html" class="t1links">View appetizers</a></div>
         </div>
-        <br>
-        <h2>Welcome to Odin Recipes</h2>
-        <br>
-        <p>This page will be dedicated to various recipes</p>
-        <h6>Recipes will be based on different meal parts</h6>
-        <br><br>
-        <h3 class="disc">Disclaimer:</h3>
-        <p>Recipes might contain <strong class="disc">allergens</strong></p>
-        <p>Seek the <em>ingredient list</em> of each attached recipe to find more about potential allergens</p>
-        <h6 class="disc">Even if a recipe doesn't mention a specific allergen you should still process with caution if you suffer from any food related allergies</h6>
-        <br><br>
+        <div class="entrees">
+            <h3 class="type-header">Entrees</h3>
+            <img src="./images/entree.png" alt="entrees" class="entrees" id="entimg">
+            <div class="enttext"><a href="./recipes/lamb.html" class="t1links">View entrees</a></div>
+        </div>
+        <div class="desserts">
+            <h3 class="type-header">Desserts</h3>
+            <img src="./images/dessert.png" alt="desserts" class="desserts" id="desimg">
+            <div class="destext"><a href="./recipes/mousse.html" class="t1links">View desserts</a></div>
+        </div>
+    </div>
 
-        <h3>Appetizers:</h3>
-        <ul class="lidex">
-            <li><a href="./recipes/fries.html">Cheese Fries</a></li>
-        </ul>
 
-        <h3>Entrees:</h3>
-        <ul class="lidex">
-            <li><a href="./recipes/lamb.html">Garlic Rosemary Lamb Chops</a></li>
-        </ul>
-
-        <h3>Desserts:</h3>
-        <ul class="lidex">
-            <li><a href="./recipes/mousse.html">Chocolate Mousse</a></li>
-        </ul>
-        <br><br><br>
+    <div class="footer-container">
+        <div class="credits"><h4>Project by: <a href="https://github.com/Dur4nt3" rel="noopener noreferrer" class="t2links">Dur4nt3</a></h4></div>
     </div>
 </body>
 </html>
