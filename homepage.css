@@ -20,6 +20,7 @@ html {
     color: #f3ff00;
     font-size: 44px;
     font-family: Papyrus, fantasy;
+    flex-shrink: 0;
 }
 
 .spoon {
@@ -38,10 +39,11 @@ html {
 
 .body-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: row;
     align-items: center;
     height: 80vh;
+    flex-wrap: wrap;
 }
 
 .type-header {
@@ -55,8 +57,7 @@ html {
     position: relative;
     text-align: center;
     height: auto;
-    width: 320px;
-    margin-right: 86px;
+    width: 320px;   
     transition: .5s ease;
 }
 
@@ -87,7 +88,6 @@ html {
     text-align: center;
     height: auto;
     width: 320px;
-    margin-right: 86px;
     transition: .5s ease;
 }
 
@@ -118,7 +118,6 @@ html {
     text-align: center;
     height: auto;
     width: 320px;
-    margin-right: 86px;
     transition: .5s ease;
 }
 
@@ -163,9 +162,9 @@ html {
 }
 
 .t2links {
-    color: #00ff13;
+    color: #f3ff00;;
 }
 
 .t2links:visited {
-    color: #00fbff;
+    color: #f3ff00;;
 }
