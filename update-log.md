@@ -14,17 +14,3 @@ Mostly, it serves the purpose of giving a *somewhat* accurate time-table of when
 
 **November 26th (2024):** Experimented with "Flexbox" and revamped the homepage
 
-
-## To-do: [^a]
-
-- Organize CSS files
-
-- Revamp recipe pages
-
-- Create individual landing pages for each food type (appetizers, entrees, desserts)
-
-- Add more recipes
-
-
-[^a]: The "To-do" section only includes concepts/designs that I am interested in implementing, meaning it's not a guarantee I will implement them, furthermore, the "To-do" section will not include concepts I didn't learn yet.
-

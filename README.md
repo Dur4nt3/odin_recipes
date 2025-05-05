@@ -9,8 +9,5 @@ It should be noted that as I progress through "The Odin Project" this repository
 Regardless of whether updating the project is a given assignment within "The Odin Project", if I see fit, I will utilize this project to practice acquired knowledge.
 
 **Skills demonstrated: Basic HTML usage; basic CSS usage**
-<p>&nbsp;</p>
 
-This project might have the added benefit of serving *somewhat* nice and easy recipes without being riddled with **ads**. [^a]
-
-[^a]: Under no circumstance does the project owner promise the recipes actually taste good :wink:
+**Webpage Responsiveness: THIS PROJECT WILL NOT DISPLAY PROPERLY ON MOBILE DEVICES**
